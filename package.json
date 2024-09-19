@@ -1,0 +1,43 @@
+{
+  "name": "swigy",
+  "version": "1.0.0",
+  "description": "this is practise react project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitishkoralli1999/gymtime.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "nitish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitishkoralli1999/gymtime/issues"
+  },
+  "homepage": "https://github.com/nitishkoralli1999/gymtime#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "browserslist": [
+    "last 2 chrome version"
+  ],
+  "main": "index.js"
+}
+// echo "# FoodDeliveryWebApplication" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/nitishkoralli1999/FoodDeliveryWebApplication.git
+// git push -u origin main
