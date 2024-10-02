@@ -17,22 +17,22 @@ export const Header = () => {
         <img className="logo" src={LOGO_URL} />
       </div>
       <div className="nav-items">
-        <ul>
+        <ul className="linkContainer">
           <li>
             {" "}
-            <Link to="/">Home </Link>{" "}
+            <Link to="/" className="linkStyle">Home </Link>{" "}
           </li>
           <li>
             {" "}
-            <Link to="/About"> About us </Link>{" "}
+            <Link to="/About" className="linkStyle"> About us </Link>{" "}
           </li>
           <li>
-            <Link to="/Contact"> Contact us </Link>{" "}
+            <Link to="/Contact" className="linkStyle"> Contact us </Link>{" "}
           </li>
 
           <li>
             {" "}
-            <Link to="/Cart"> Cart </Link>{" "}
+            <Link to="/Cart" className="linkStyle"> Cart </Link>{" "}
           </li>
           <button
             className="login"

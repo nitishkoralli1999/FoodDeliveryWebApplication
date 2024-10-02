@@ -140,3 +140,15 @@ flex-wrap: wrap;
     max-width: fit-content;
    
 }
+.linkStyle{
+    text-decoration: none;
+}
+.linkStyle:hover{
+    text-shadow: #bb4040;
+    font-weight: bolder;
+    color: rgb(122, 152, 192);
+}
+.linkContainer{
+    display: flex;
+
+}
